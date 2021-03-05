@@ -138,7 +138,7 @@ import {itemListenerMixin,backTopMixin} from 'common/mixin'
       getHomeGoods(type){
         const page=this.goods[type].page+1;  // 页面加载后默认获取第一页数据
         getHomeGoods(type, page).then((res)=>{
-          // console.log(res.data.data.list);  // 这时候返回的就是list数组了
+          // console.log(reses.data.data.list);  // 这时候返回的就是list数组了
           this.goods[type].list.push(...res.data.data.list);
           this.goods[type].page += 1;
 
@@ -215,7 +215,7 @@ import {itemListenerMixin,backTopMixin} from 'common/mixin'
    bottom: 49px;
    left: 0px;
    right: 0;
-   /* margin-top: 44px; */
+   margin-top: 44px;
  }
  
 </style>

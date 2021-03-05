@@ -213,7 +213,7 @@ import {itemListenerMixin,backTopMixin} from 'common/mixin'
    position: absolute;
    top: 44px;
    bottom: 49px;
-   left: 0px;
+   left: 0;
    right: 0;
    margin-top: 44px;
  }
